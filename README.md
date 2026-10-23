@@ -33,9 +33,6 @@ Este projeto é um painel administrativo responsivo desenvolvido com **Next.js**
 * **Confirmação de Exclusão:** Modal de alerta interativo (AlertDialog) para evitar exclusões acidentais de clientes.
 
 
-* **Máscara de Telefone:** Formatação automática do campo de telefone durante a digitação.
-
-
 
 ## 🛠️ Tecnologias Utilizadas
 
