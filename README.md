@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gestão de Clientes
 
-## Getting Started
+Este projeto é um painel administrativo moderno e responsivo desenvolvido com **Next.js**, **React**, **TypeScript** e **Tailwind CSS** para o gerenciamento completo de cadastros de clientes.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Como Executar o Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone o repositório para a sua máquina local.
+2. Instale as dependências do projeto utilizando o gerenciador de pacotes de sua preferência (`npm install`, `yarn install` ou `pnpm install`).
+3. Inicie o servidor de desenvolvimento (`npm run dev`).
+4. Abra o navegador e acesse `http://localhost:3000` para visualizar a aplicação em funcionamento.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Funcionalidades Principais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Listagem Dinâmica:** Visualização de todos os clientes cadastrados com contagem em tempo real.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+* **Cadastro e Edição:** Formulário integrado para adicionar novos registros ou atualizar dados existentes com validação prévia.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Validação de Formulários:** Verificação de campos obrigatórios, formato de e-mail e prevenção contra duplicidade e inserção de números em campos textuais.
+
+
+* **Busca Instantânea:** Filtre clientes rapidamente por nome, e-mail ou cidade.
+
+
+* **Filtro por Status:** Alterne facilmente entre visualizar todos os usuários, apenas os ativos ou os inativos.
+
+
+* **Confirmação de Exclusão:** Modal de alerta interativo (AlertDialog) para evitar exclusões acidentais de clientes.
+
+
+* **Máscara de Telefone:** Formatação automática do campo de telefone durante a digitação.
+
+
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Next.js (App Router)**
+
+* **React (Client Components e Hooks)**
+
+* **TypeScript**
+
+* **Tailwind CSS**
+
+* **Lucide React** (Ícones)
+
+
