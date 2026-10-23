@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // Se você estava usando a Inter, deixe assim. Se usava outra, mantenha a sua.
+import { Inter } from "next/font/google"; 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });

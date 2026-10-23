@@ -6,7 +6,7 @@ import { Cliente } from "../types";
 
 interface FormularioProps {
   clienteEmEdicao?: Cliente | null;
-  clientes: Cliente[]; // <-- Nova prop recebida do page.tsx
+  clientes: Cliente[]; 
   onSalvar: (dados: Omit<Cliente, "id">) => void;
   onCancelarEdicao: () => void;
 }
@@ -84,7 +84,7 @@ export function FormularioCliente({ clienteEmEdicao, clientes, onSalvar, onCance
 
     onSalvar({
       nomeCompleto: nome.trim(),
-      email: email.trim().toLowerCase(), // Boa prática: salvar e-mails sempre em minúsculo
+      email: email.trim().toLowerCase(), 
       telefone,
       cidade: cidade.trim(),
       status,

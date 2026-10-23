@@ -210,7 +210,7 @@ export default function Home() {
           <FormularioCliente
             key={clienteEmEdicao?.id ?? "novo"}
             clienteEmEdicao={clienteEmEdicao}
-            clientes={clientes} /* <-- ADICIONADO AQUI */
+            clientes={clientes} 
             onSalvar={handleSalvar}
             onCancelarEdicao={handleCancelarEdicao}
           />
