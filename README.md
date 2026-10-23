@@ -1,6 +1,6 @@
 # Gestão de Clientes
 
-Este projeto é um painel administrativo moderno e responsivo desenvolvido com **Next.js**, **React**, **TypeScript** e **Tailwind CSS** para o gerenciamento completo de cadastros de clientes.
+Este projeto é um painel administrativo responsivo desenvolvido com **Next.js**, **React**, **TypeScript** e **Tailwind CSS** para o gerenciamento completo de cadastros de clientes.
 
 
 
@@ -31,9 +31,6 @@ Este projeto é um painel administrativo moderno e responsivo desenvolvido com *
 
 
 * **Confirmação de Exclusão:** Modal de alerta interativo (AlertDialog) para evitar exclusões acidentais de clientes.
-
-
-* **Máscara de Telefone:** Formatação automática do campo de telefone durante a digitação.
 
 
 
